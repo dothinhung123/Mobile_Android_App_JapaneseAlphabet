@@ -68,6 +68,7 @@ public class CardRecyclerAdapter extends RecyclerView.Adapter<CardRecyclerAdapte
                         if (mediaPlayer.isPlaying()) {
                             //pause it
                             mediaPlayer.pause();
+
                         } else {
                             //start it
                             mediaPlayer.start();
